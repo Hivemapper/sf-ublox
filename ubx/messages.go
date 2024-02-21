@@ -9510,7 +9510,6 @@ func mkMsg(classId, sz uint16, frame []byte) Message {
 		return new(SecUniqid)
 
 	case 0x0427:
-		fmt.Println("UBX----!!!!!!!!")
 		return new(SecEcsign)
 
 	case 0x110d:
