@@ -8387,7 +8387,7 @@ func (SecUniqid) classID() uint16 { return 0x0327 }
 
 // Message ubx-sec-ecsign
 
-// SecEcsign (Periodic/Polled) Secure hash thing
+// SecEcsign (Periodic/Polled) Secure ECDSA Signature Hash
 // Class/Id 0x27 0x04 (108 bytes)
 // This message contains the information needed to authenticate gnss messages
 type SecEcsign struct {
